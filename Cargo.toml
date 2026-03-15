@@ -8,6 +8,9 @@ repository = "https://github.com/mgeier/much"
 description = "Handling Multi-Channel Audio Signals"
 keywords = ["multi-channel", "audio"]
 
+[package.metadata.docs.rs]
+all-features = true
+
 [features]
 default = []
 ndarray = ["dep:ndarray"]

@@ -258,6 +258,7 @@
 //! TODO: example: [`frames::frames_from_channels_mut()`] (slice of slices instead of iterator of
 //! slices)
 
+#![cfg_attr(docsrs, feature(doc_cfg))]
 #![forbid(clippy::undocumented_unsafe_blocks)]
 
 pub mod flat;
